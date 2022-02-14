@@ -75,6 +75,7 @@ namespace DataStructureHashTable
             {
                 list.Remove(foundElement);
             }
+            
         }
         
     }
