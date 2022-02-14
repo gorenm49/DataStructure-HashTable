@@ -29,8 +29,11 @@ namespace DataStructureHashTable
             hashTable.Add("f17", "avoidable");
             hashTable.Add("f18", "situations”");
             
-            string strHold = hashTable.GetElement("f8");
-            System.Console.WriteLine("8th index word in the paragraph is  :"+strHold);
+            hashTable.RemoveElement("f17");
+            System.Console.WriteLine(" 'avoidable' word deleted from the paragraph");
+
+            string strHold = hashTable.GetElement("f17");
+            System.Console.WriteLine("f17th index word in the paragraph is  :"+strHold);
        }
 
     }
